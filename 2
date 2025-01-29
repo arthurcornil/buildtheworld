@@ -1,0 +1,19 @@
+<script>
+  import "../app.css";
+  import Nav from './Nav.svelte';
+  import { slide } from 'svelte/transition'
+
+  export let data
+</script>
+
+<Nav />
+
+{#key data.url}
+    <main class="flex justify-center"
+        in:slide
+        out:slide
+    >
+        <slot />
+    </main>
+{/key}
+

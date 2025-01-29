@@ -34,7 +34,7 @@
         </p>
         <a 
             class="w-full md:w-52 h-14 mt-5 flex justify-center items-center bg-primary-400 cursor-pointer select-none active:translate-y-4 active:[box-shadow:0_0px_0_0_#38809A,0_0px_0_0_#38809A] transition-all duration-150 [box-shadow:0_5px_0_0_#38809A,0_10px_0_0_#38809A] rounded-xl text-xl font-extrabold text-white" 
-            href="#"
+            href="/courses"
         >
             Get started
         </a>

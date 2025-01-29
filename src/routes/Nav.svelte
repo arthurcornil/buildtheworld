@@ -27,7 +27,7 @@ import { IconMenu2 } from '@tabler/icons-svelte';
             <!-- Desktop menu -->
             <div class="hidden md:flex gap-5">
                 <a href="/" class="text-white py-2 px-4 hover:bg-white hover:bg-white/10 transition-all duration-150 rounded-md">Home</a>
-                <a href="#" class="text-white py-2 px-4 hover:bg-white hover:bg-white/10 transition-all duration-150 rounded-md">Courses</a>
+                <a href="/courses" class="text-white py-2 px-4 hover:bg-white hover:bg-white/10 transition-all duration-150 rounded-md">Courses</a>
             </div>
         </div>
     </div>
